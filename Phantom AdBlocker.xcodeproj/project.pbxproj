@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C9065EE625B35D950086AC14 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9065EE525B35D950086AC14 /* AppDelegate.swift */; };
+		C9065EE925B35D950086AC14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9065EE725B35D950086AC14 /* Main.storyboard */; };
+		C9065EEB25B35D950086AC14 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9065EEA25B35D950086AC14 /* ViewController.swift */; };
+		C9065EED25B35D960086AC14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9065EEC25B35D960086AC14 /* Assets.xcassets */; };
+		C9065EF425B35D960086AC14 /* Phantom AdBlocker Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C9065EF325B35D960086AC14 /* Phantom AdBlocker Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C9065EF925B35D960086AC14 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9065EF825B35D960086AC14 /* Cocoa.framework */; };
+		C9065EFC25B35D960086AC14 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9065EFB25B35D960086AC14 /* SafariWebExtensionHandler.swift */; };
+		C9065F1225B35D970086AC14 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C9065F0925B35D970086AC14 /* icon.png */; };
+		C9065F1325B35D970086AC14 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = C9065F0A25B35D970086AC14 /* popup.js */; };
+		C9065F1425B35D970086AC14 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = C9065F0B25B35D970086AC14 /* popup.html */; };
+		C9065F1525B35D970086AC14 /* icon_128.png in Resources */ = {isa = PBXBuildFile; fileRef = C9065F0C25B35D970086AC14 /* icon_128.png */; };
+		C9065F1625B35D970086AC14 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = C9065F0D25B35D970086AC14 /* manifest.json */; };
+		C9065F1725B35D970086AC14 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = C9065F0E25B35D970086AC14 /* popup.css */; };
+		C9065F1825B35D970086AC14 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = C9065F0F25B35D970086AC14 /* content.js */; };
+		C9065F1925B35D970086AC14 /* 440x280.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C9065F1025B35D970086AC14 /* 440x280.jpg */; };
+		C9065F1A25B35D970086AC14 /* eventPage.js in Resources */ = {isa = PBXBuildFile; fileRef = C9065F1125B35D970086AC14 /* eventPage.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C9065EF525B35D960086AC14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9065ED925B35D950086AC14 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9065EF225B35D960086AC14;
+			remoteInfo = "Phantom AdBlocker Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C9065F0425B35D960086AC14 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C9065EF425B35D960086AC14 /* Phantom AdBlocker Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C9065EE125B35D950086AC14 /* Phantom AdBlocker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Phantom AdBlocker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9065EE425B35D950086AC14 /* Phantom_AdBlocker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Phantom_AdBlocker.entitlements; sourceTree = "<group>"; };
+		C9065EE525B35D950086AC14 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C9065EE825B35D950086AC14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C9065EEA25B35D950086AC14 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C9065EEC25B35D960086AC14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C9065EEE25B35D960086AC14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9065EF325B35D960086AC14 /* Phantom AdBlocker Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Phantom AdBlocker Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9065EF825B35D960086AC14 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		C9065EFB25B35D960086AC14 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		C9065EFD25B35D960086AC14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9065EFE25B35D960086AC14 /* Phantom_AdBlocker_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Phantom_AdBlocker_Extension.entitlements; sourceTree = "<group>"; };
+		C9065F0925B35D970086AC14 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = "../../Desktop/Phantom AdBlocker/icon.png"; sourceTree = "<group>"; };
+		C9065F0A25B35D970086AC14 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = popup.js; path = "../../Desktop/Phantom AdBlocker/popup.js"; sourceTree = "<group>"; };
+		C9065F0B25B35D970086AC14 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = popup.html; path = "../../Desktop/Phantom AdBlocker/popup.html"; sourceTree = "<group>"; };
+		C9065F0C25B35D970086AC14 /* icon_128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_128.png; path = "../../Desktop/Phantom AdBlocker/icon_128.png"; sourceTree = "<group>"; };
+		C9065F0D25B35D970086AC14 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = "../../Desktop/Phantom AdBlocker/manifest.json"; sourceTree = "<group>"; };
+		C9065F0E25B35D970086AC14 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = popup.css; path = "../../Desktop/Phantom AdBlocker/popup.css"; sourceTree = "<group>"; };
+		C9065F0F25B35D970086AC14 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = content.js; path = "../../Desktop/Phantom AdBlocker/content.js"; sourceTree = "<group>"; };
+		C9065F1025B35D970086AC14 /* 440x280.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 440x280.jpg; path = "../../Desktop/Phantom AdBlocker/440x280.jpg"; sourceTree = "<group>"; };
+		C9065F1125B35D970086AC14 /* eventPage.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = eventPage.js; path = "../../Desktop/Phantom AdBlocker/eventPage.js"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C9065EDE25B35D950086AC14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9065EF025B35D960086AC14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9065EF925B35D960086AC14 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C9065ED825B35D950086AC14 = {
+			isa = PBXGroup;
+			children = (
+				C9065EE325B35D950086AC14 /* Phantom AdBlocker */,
+				C9065EFA25B35D960086AC14 /* Phantom AdBlocker Extension */,
+				C9065EF725B35D960086AC14 /* Frameworks */,
+				C9065EE225B35D950086AC14 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C9065EE225B35D950086AC14 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9065EE125B35D950086AC14 /* Phantom AdBlocker.app */,
+				C9065EF325B35D960086AC14 /* Phantom AdBlocker Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9065EE325B35D950086AC14 /* Phantom AdBlocker */ = {
+			isa = PBXGroup;
+			children = (
+				C9065EE425B35D950086AC14 /* Phantom_AdBlocker.entitlements */,
+				C9065EE525B35D950086AC14 /* AppDelegate.swift */,
+				C9065EE725B35D950086AC14 /* Main.storyboard */,
+				C9065EEA25B35D950086AC14 /* ViewController.swift */,
+				C9065EEC25B35D960086AC14 /* Assets.xcassets */,
+				C9065EEE25B35D960086AC14 /* Info.plist */,
+			);
+			path = "Phantom AdBlocker";
+			sourceTree = "<group>";
+		};
+		C9065EF725B35D960086AC14 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C9065EF825B35D960086AC14 /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C9065EFA25B35D960086AC14 /* Phantom AdBlocker Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C9065F0825B35D970086AC14 /* Resources */,
+				C9065EFB25B35D960086AC14 /* SafariWebExtensionHandler.swift */,
+				C9065EFD25B35D960086AC14 /* Info.plist */,
+				C9065EFE25B35D960086AC14 /* Phantom_AdBlocker_Extension.entitlements */,
+			);
+			path = "Phantom AdBlocker Extension";
+			sourceTree = "<group>";
+		};
+		C9065F0825B35D970086AC14 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C9065F0925B35D970086AC14 /* icon.png */,
+				C9065F0A25B35D970086AC14 /* popup.js */,
+				C9065F0B25B35D970086AC14 /* popup.html */,
+				C9065F0C25B35D970086AC14 /* icon_128.png */,
+				C9065F0D25B35D970086AC14 /* manifest.json */,
+				C9065F0E25B35D970086AC14 /* popup.css */,
+				C9065F0F25B35D970086AC14 /* content.js */,
+				C9065F1025B35D970086AC14 /* 440x280.jpg */,
+				C9065F1125B35D970086AC14 /* eventPage.js */,
+			);
+			name = Resources;
+			path = "Phantom AdBlocker Extension";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C9065EE025B35D950086AC14 /* Phantom AdBlocker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9065F0525B35D960086AC14 /* Build configuration list for PBXNativeTarget "Phantom AdBlocker" */;
+			buildPhases = (
+				C9065EDD25B35D950086AC14 /* Sources */,
+				C9065EDE25B35D950086AC14 /* Frameworks */,
+				C9065EDF25B35D950086AC14 /* Resources */,
+				C9065F0425B35D960086AC14 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9065EF625B35D960086AC14 /* PBXTargetDependency */,
+			);
+			name = "Phantom AdBlocker";
+			productName = "Phantom AdBlocker";
+			productReference = C9065EE125B35D950086AC14 /* Phantom AdBlocker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C9065EF225B35D960086AC14 /* Phantom AdBlocker Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9065F0125B35D960086AC14 /* Build configuration list for PBXNativeTarget "Phantom AdBlocker Extension" */;
+			buildPhases = (
+				C9065EEF25B35D960086AC14 /* Sources */,
+				C9065EF025B35D960086AC14 /* Frameworks */,
+				C9065EF125B35D960086AC14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Phantom AdBlocker Extension";
+			productName = "Phantom AdBlocker Extension";
+			productReference = C9065EF325B35D960086AC14 /* Phantom AdBlocker Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C9065ED925B35D950086AC14 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					C9065EE025B35D950086AC14 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					C9065EF225B35D960086AC14 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = C9065EDC25B35D950086AC14 /* Build configuration list for PBXProject "Phantom AdBlocker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C9065ED825B35D950086AC14;
+			productRefGroup = C9065EE225B35D950086AC14 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9065EE025B35D950086AC14 /* Phantom AdBlocker */,
+				C9065EF225B35D960086AC14 /* Phantom AdBlocker Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C9065EDF25B35D950086AC14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9065EED25B35D960086AC14 /* Assets.xcassets in Resources */,
+				C9065EE925B35D950086AC14 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9065EF125B35D960086AC14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9065F1225B35D970086AC14 /* icon.png in Resources */,
+				C9065F1425B35D970086AC14 /* popup.html in Resources */,
+				C9065F1725B35D970086AC14 /* popup.css in Resources */,
+				C9065F1625B35D970086AC14 /* manifest.json in Resources */,
+				C9065F1925B35D970086AC14 /* 440x280.jpg in Resources */,
+				C9065F1525B35D970086AC14 /* icon_128.png in Resources */,
+				C9065F1825B35D970086AC14 /* content.js in Resources */,
+				C9065F1A25B35D970086AC14 /* eventPage.js in Resources */,
+				C9065F1325B35D970086AC14 /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C9065EDD25B35D950086AC14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9065EEB25B35D950086AC14 /* ViewController.swift in Sources */,
+				C9065EE625B35D950086AC14 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9065EEF25B35D960086AC14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9065EFC25B35D960086AC14 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C9065EF625B35D960086AC14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9065EF225B35D960086AC14 /* Phantom AdBlocker Extension */;
+			targetProxy = C9065EF525B35D960086AC14 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C9065EE725B35D950086AC14 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9065EE825B35D950086AC14 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C9065EFF25B35D960086AC14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C9065F0025B35D960086AC14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		C9065F0225B35D960086AC14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Phantom AdBlocker Extension/Phantom_AdBlocker_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 39ZADS4MA9;
+				INFOPLIST_FILE = "Phantom AdBlocker Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rahimrajwani.Phantom-Blocker.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C9065F0325B35D960086AC14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Phantom AdBlocker Extension/Phantom_AdBlocker_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 39ZADS4MA9;
+				INFOPLIST_FILE = "Phantom AdBlocker Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rahimrajwani.Phantom-Blocker.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		C9065F0625B35D960086AC14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Phantom AdBlocker/Phantom_AdBlocker.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 39ZADS4MA9;
+				INFOPLIST_FILE = "Phantom AdBlocker/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rahimrajwani.Phantom-Blocker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C9065F0725B35D960086AC14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Phantom AdBlocker/Phantom_AdBlocker.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 39ZADS4MA9;
+				INFOPLIST_FILE = "Phantom AdBlocker/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rahimrajwani.Phantom-Blocker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C9065EDC25B35D950086AC14 /* Build configuration list for PBXProject "Phantom AdBlocker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9065EFF25B35D960086AC14 /* Debug */,
+				C9065F0025B35D960086AC14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9065F0125B35D960086AC14 /* Build configuration list for PBXNativeTarget "Phantom AdBlocker Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9065F0225B35D960086AC14 /* Debug */,
+				C9065F0325B35D960086AC14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9065F0525B35D960086AC14 /* Build configuration list for PBXNativeTarget "Phantom AdBlocker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9065F0625B35D960086AC14 /* Debug */,
+				C9065F0725B35D960086AC14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C9065ED925B35D950086AC14 /* Project object */;
+}
